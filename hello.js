@@ -1,4 +1,4 @@
-var express = require('express')
+var express = require('express');
 var app = express();
 
 app.get('/', function(req, res){
@@ -6,4 +6,4 @@ app.get('/', function(req, res){
 });
 
 app.listen(3000);
-console.log('express app started on port 3000')
+console.log('express app started on port 3000');
